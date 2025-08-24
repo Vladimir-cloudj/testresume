@@ -1,0 +1,36 @@
+.hello {
+    padding-top: 334px;
+    height: 765px;
+    background-image: url(../resources/img/hello/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.hello__text {
+    color: var(--color-white);
+    width: 430px;
+    /* font-style: Regular; */
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 29px;
+}
+
+
+.hello__name {
+
+    /* font-style: Regular; */
+    font-size: 80px;
+    line-height: 70px;
+    /* letter-spacing: -3%; */
+    color: var(--color-green);
+    width: 919px;
+}
+
