@@ -1,11 +1,10 @@
 .header {
-  padding-top: 33px;
-  height: 765px;
-  background-image: url(../resources/img/hello/background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center -570px; */
-  /* background-position: 50px -570px; */
+  position: fixed;
+  top: 33px;
+  left: 9%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
 }
 
 .header-container {
@@ -24,7 +23,6 @@
   border-radius: 100px;
   opacity: 1;
   padding: 0 12px 0 9px;
-
 }
 
 .logo-text {
@@ -35,7 +33,6 @@
   line-height: 100%;
   letter-spacing: -0.11em;
   text-transform: uppercase;
-
 }
 
 .nav-list {
