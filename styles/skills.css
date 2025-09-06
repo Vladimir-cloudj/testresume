@@ -1,0 +1,79 @@
+.skills {
+    background-color: var(--color-black);
+    padding-top: 150px;
+}
+.container {
+}
+.skills__container {
+    /* width: 1153px; */
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.skills__title {
+    color: var(--color-white);
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+}
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 47px;
+}
+.item {
+}
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item__img {
+    width: 45px;
+    height: 45px;
+}
+.item__img img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.item__name {
+    color: var(--color-green);
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+}
+.item__description {
+    color: var(--color-white);
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 135%;
+    text-align: left;
+}
+
+.skills__item:nth-child(odd) .item__description {
+    width: 535px;
+}
+.skills__item:nth-child(even) .item__description {
+    width: 564px;
+}
+.skills__item:nth-child(:first-child) .item__description {
+    margin-bottom: 37px;
+}
+.skills__item:nth-child(3n) .item__description {
+    width: 570px;
+}
+.skills__item:nth-child(3n) {
+    gap: 0;
+}
+.skills__item:nth-child(3n) .item__name {
+    margin-top: 15px;
+    margin-bottom: 54px;
+}
