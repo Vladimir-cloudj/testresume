@@ -2,6 +2,7 @@
 @import url(./hello.css);
 @import url(./projects.css);
 @import url(./skills.css);
+@import url(./tasks.css);
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
@@ -10,6 +11,7 @@
     --color-green: #1BFF07; 
     --color-white: #ffffff;
     --color-black: #000000;
+    --color-grey: #191C19;
   }
 
   html {
