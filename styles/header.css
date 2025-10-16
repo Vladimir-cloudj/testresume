@@ -54,3 +54,6 @@
   text-decoration: none;
   color: inherit;
 }
+.nav-list__link:hover {
+  color: var(--color-green);
+}

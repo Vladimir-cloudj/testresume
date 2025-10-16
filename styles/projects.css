@@ -106,3 +106,9 @@
     border-radius: 10px;
     background: var(--color-green);
 }
+.btn-projects:hover {
+    background: var(--color-black);
+    color: var(--color-green);
+    border-color: var(--color-green);
+    border: 1px solid;
+}

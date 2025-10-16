@@ -67,6 +67,9 @@
     /* letter-spacing: -3%; */
     /* text-align: left; */
 }
+.footer__contacts-link:hover {
+    color: var(--color-green);
+}
 .footer__politics {
 }
 .footer__politics-text {
