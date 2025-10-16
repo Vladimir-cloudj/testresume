@@ -1,0 +1,84 @@
+.footer {
+}
+.container.footer__container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-right: 125px;
+    max-width: inherit;
+    width: 100%;
+}
+.footer__left {
+    padding-top: 76px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+.footer__title {
+    color: var(--color-black);
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    /* letter-spacing: -3%; */
+    /* text-align: left; */
+}
+.footer__copyright {
+    color: var(--color-black);
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    opacity: 0.5;
+    /* letter-spacing: -3%; */
+    /* text-align: left; */
+}
+.footer__right {
+    padding-top: 76px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+.footer__contacts {
+}
+.footer__contacts-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer__contacts-item {
+}
+.footer__contacts-link {
+    color: var(--color-black);
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    /* letter-spacing: -3%; */
+    /* text-align: left; */
+}
+.footer__contacts-link:hover {
+    color: var(--color-green);
+}
+.footer__politics {
+}
+.footer__politics-text {
+    opacity: 0.5;
+    color: var(--color-black);
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    /* letter-spacing: -3%; */
+    /* text-align: right; */
+}
